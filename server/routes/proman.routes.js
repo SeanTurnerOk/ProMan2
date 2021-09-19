@@ -6,4 +6,5 @@ module.exports=app=>{
     app.post("/api/makeProduct",ProductController.makeProduct)
     app.post("/api/updateProduct",ProductController.updateProduct)
     app.post("/api/deleteProduct",ProductController.deleteProduct)
+    app.post("/api/findById",ProductController.findById)
 }
